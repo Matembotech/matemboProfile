@@ -1,0 +1,231 @@
+.contact-content {
+    font-family: 'inter', sans-serif;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+.contact-title {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    color: var(--text-color2);
+}
+
+.contact-description {
+    font-size: 0.937rem;
+    margin-left: 1rem;
+    line-height: 1.4;
+    color: var(--paragraph-color);
+    padding-bottom: 2rem;
+}
+
+.contact-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+
+  box-shadow: 1px 1px 20px 10px var( --about-content2-card-color);
+  transition:  transform 1s ease-in-out; 
+}
+
+.contact-cards:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.contact-cards i {
+    margin-top: 1rem;
+    color: var(--nav-color);
+    margin-bottom: 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0.5rem;
+    background-color: var(--about-content2-card);
+}
+
+.contact-cards p:nth-child(2) {
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+    margin-bottom: 0; 
+    color: var(--text-color2);   
+}
+
+.contact-cards p:nth-child(3) {
+  font-size: 0.837rem;
+  color: var(--paragraph-color);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  border: 1px solid var(--nav-color);
+  border-radius: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.form-title {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: var(--text-color2);
+}
+
+.form-title i {
+    margin-right: 0.5rem;
+    color: var(--nav-color);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.form-description {
+    font-size: 0.937rem;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    color: var(--paragraph-color);
+    margin-bottom: 2rem;
+}
+
+.contact-form label {
+    margin-left: 1rem;
+    font-size: 0.937rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: var(--text-color2);
+}
+
+.contact-form input {
+    margin-left: 1.4rem;
+    margin-top: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--nav-color);
+    width: 85%;
+    background-color: transparent;
+}
+
+.contact-form input:focus {
+    outline: none;
+}
+
+textarea {
+    margin-left: 1.4rem;
+    margin-top: 0;
+    padding: 10px;
+    height: 15vh;
+    border-radius: 10px;
+    border: 1px solid var(--nav-color);
+    width: 85%;
+    background-color: transparent;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.contact-form button {
+    margin-left: 1.4rem;
+    width: 85%;
+    padding: 8px 10px 8px 10px;
+    font-weight: 900;
+
+    background-color: var(--button-color);
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px var(--nav-color);
+}
+
+.social-media h1 {
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color2);
+}
+
+.social-icon {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.icon i {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.facebook i {color: #1877F2;}
+.linkedin i {color: #0077B5;}
+.twitter i {color: #1DA1F2;}
+.instagram i {color: #E1306C;}
+.whatsapp i {color: #25D366;}
+.tiktok i {color: #010101;}
+
+.icon:hover i {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+hr {
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+/*Responsive Design*/
+@media (min-width: 480px) { 
+  
+}
+
+/* Large phones and small tablets */
+@media (min-width: 600px) { 
+  
+}
+
+/* Tablets portrait */
+@media (min-width: 768px) {
+  .contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .contact-form {
+    height: 70%;
+    margin-top: 15rem;
+  }
+
+  .contact-cards {
+    width: 90%;
+  }
+ }
+
+/* Tablets landscape and small laptops */
+@media (min-width: 992px) {
+    
+ }
+
+/* Desktops */
+@media (min-width: 1200px) {
+    
+ }
+
+/* Large desktops */
+@media (min-width: 1440px) {
+  
+ }
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+   
+ }
+

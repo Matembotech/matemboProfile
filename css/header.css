@@ -1,0 +1,207 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.site-header {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 2;
+
+ height: 80px;
+ background-color: var(--header-bg-color);
+}
+
+.dark-toggle-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    column-gap: 1.5rem;
+  
+}
+
+.theme-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.theme-toggle .dark-icon {
+    width: 1.2rem;
+    
+}
+
+.humberger-menu {
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: var(--text-color2);
+}
+
+.theme-toggle .light-icon {
+    display: none;
+    width: 1.2rem;
+}
+
+.my-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-image {
+ max-width: 60px;
+ width: 60px;
+ height: 60px;
+ border-radius: 10rem;
+ margin-right: 0.5rem;
+ margin-left: 0.5rem;
+}
+
+.logo-name{
+   display: none;
+}
+
+.navigation-bars {
+    display: none;
+}
+
+.side-navigation-bars {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+   background-color: var(--bg-color);
+
+   width: 100%;
+   height: 50%;
+
+    position: fixed;
+    left: 0;
+    top: 4rem;
+    z-index: 100;
+
+    transform: translateX(-100%);
+    transition: 1s ease-in-out;
+}
+
+.side-navigation-bars a {
+    text-decoration: none;
+    color: var(--text-color2);
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.side-navigation-bars a.active {
+ background-color: var(--button-color);
+ border-radius: 1rem;
+ color: var(--text-color2);
+}
+
+.close-button {
+    width: 20%;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    
+    position: fixed;
+    top: 1rem;
+    right: 0;
+
+    color: var(--text-color2);
+    cursor: pointer;
+}
+
+
+
+/*Responsive Design*/
+@media (min-width: 480px) { 
+  .logo-name{
+    display: inline;
+    font-size: 1.537rem;
+    color: var(--text-color2);
+}
+}
+
+/* Large phones and small tablets */
+@media (min-width: 600px) { 
+   
+}
+
+/* Tablets portrait */
+@media (min-width: 768px) {
+    .site-header {
+        display: grid;
+        grid-template-columns: 250px 1fr 100px;
+    }
+
+    .humberger-menu {
+        display: none;
+    }
+
+    .navigation-bars {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     column-gap: 2rem;
+    }
+
+    .navigation-bars a {
+        text-decoration: none;
+        color: var(--text-color2);
+        font-size: 1.3rem;
+    }
+
+    .navigation-bars a:hover {
+       color: var(--nav-color);
+    }
+
+    .navigation-bars a.active {
+        color: var(--nav-color);
+        font-weight: 900;
+    }
+
+    .close-button {
+        width: 20%;
+    }
+    
+ }
+
+/* Tablets landscape and small laptops */
+@media (min-width: 992px) {
+  
+ }
+
+/* Desktops */
+@media (min-width: 1200px) {
+    
+ }
+
+/* Large desktops */
+@media (min-width: 1440px) {
+  
+
+  
+ }
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+   
+ }

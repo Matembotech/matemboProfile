@@ -1,0 +1,142 @@
+.footer-section {
+  padding-bottom: 3rem;
+}
+
+.footer-content {
+  display: flex;
+  font-family: 'inter', sans-serif;
+  padding-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@keyframes footerImg {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.footer-content1 img, .footer-content3 img{
+  width: 100px;
+  border-radius: 6rem;
+  display: none;
+
+  animation-name: footerImg; 
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.footer-content2 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.footer-content2 h1 {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  color: var(--nav-color);
+  margin-bottom: 0;
+}
+
+.footer-content2 p {
+  font-size: 0.837rem;
+  margin-left: 1.5rem;
+  color: var(--paragraph-color);
+}
+
+.footer-navigation-bars {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.footer-navigation-bars a {
+  text-decoration: none;
+  color: var(--paragraph-color);
+  padding: 10px;
+}
+
+.footer-navigation-bars a:hover {
+  background-color: var(--nav-color);
+  color: white;
+  font-weight: 800;
+  border-radius: 0.8rem;
+}
+
+.footer-line {
+  width: 70%;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'inter', sans-serif;
+  margin-top: 0.5rem;
+  font-size: 0.737rem;
+  color: var(--paragraph-color);
+}
+
+/*Responsive Design*/
+@media (min-width: 480px) { 
+  
+}
+
+/* Large phones and small tablets */
+@media (min-width: 600px) { 
+  .footer-content2 h1 {
+    font-size: 2rem;
+  }
+
+  .footer-content2 p {
+    font-size: 1rem;
+  }
+
+  .footer-navigation-bars a {
+    font-size: 1.3rem;
+  }
+}
+
+/* Tablets portrait */
+@media (min-width: 768px) {
+   .footer-content1 img, .footer-content3 img {
+    display: inline;
+    margin-left: 3rem;
+    margin-right: 3rem;
+   }
+
+   .footer-section {
+    justify-content: space-between;
+   }
+ }
+
+/* Tablets landscape and small laptops */
+@media (min-width: 992px) {
+  
+ }
+
+/* Desktops */
+@media (min-width: 1200px) {
+    
+ }
+
+/* Large desktops */
+@media (min-width: 1440px) {
+  
+ }
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+   
+ }
+
+
+
+  
