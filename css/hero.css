@@ -222,12 +222,29 @@ body, html {
 
 /* Tablets landscape and small laptops */
 @media (min-width: 992px) {
-  
+  .hero-fig-content img {
+    width: 100px;
+    height: 100px;
+  }
  }
 
 /* Desktops */
 @media (min-width: 1200px) {
-    
+     .hero-content-tagline {
+    font-size: 7rem;
+  }
+
+  .hero-content-title {
+    font-size: 10rem;
+  }
+
+  .hero-content-subtitle {
+    font-size: 5rem;
+  }
+
+  .hero-content-description {
+    font-size: 1.5rem;
+  }
  }
 
 /* Large desktops */
