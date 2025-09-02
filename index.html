@@ -29,7 +29,7 @@
       <!--LOgo side-->
       <a href="#" class="my-logo">
         <img class="logo-image" src="Assets/images/matemboLogo.jpg" alt="matembo-logo">
-        <p class="logo-name">Matembo Tech</p>
+        <p class="logo-name">Matembo dev.</p>
       </a>
 
       <!--navigation bar-->
@@ -37,6 +37,7 @@
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#project">Projects</a>
+        <a class="nav-links" href="graphics.html">My Graphics</a>
         <a href="#contact">Contact</a>
       </nav>
 
@@ -56,6 +57,7 @@
         <a class="nav-links" href="#home" class="active">Home</a>
         <a class="nav-links" href="#about">About</a>
         <a class="nav-links" href="#project">Projects</a>
+        <a class="nav-links" href="graphics.html">My Graphics</a>
         <a class="nav-links" href="#contact">Contact</a>
       </nav>
     </aside>
@@ -66,7 +68,7 @@
         <div class="overlay"></div>
         <div class="hero-content">
           <h2 class="hero-content-tagline" data-aos="fade-up-right" data-aos-duration="1700" data-aos-easing="ease-in-out">HI  I'M</h2>
-          <h1 class="hero-content-title" data-aos="fade-up-right" data-aos-duration="1800" data-aos-easing="ease-in-out">MATEMBO TECH</h1>
+          <h1 class="hero-content-title" data-aos="fade-up-right" data-aos-duration="1800" data-aos-easing="ease-in-out">MATEMBO Dev.</h1>
           <h3 class="hero-content-subtitle"  data-aos="fade-up-right" data-aos-duration="1900" data-aos-easing="ease-in-out">
             I am <span id="typed"></span>
           </h3>
@@ -84,7 +86,7 @@
 
             <div class="hero-fig-content"  data-aos="zoom-in" data-aos-duration="1800" data-aos-easing="ease-in-out">
             <img class="hero-fig-image" src="Assets/images/database (1).png" alt="webDeveloprIcon">
-            <p>Database Design</p>
+            <p>Database Designer</p>
             </div>
           </div>
 
@@ -110,7 +112,7 @@
         <div class="about-section">
           <div class="about-content1">
             <p  data-aos="slide-right" data-aos-duration="1800" data-aos-easing="ease-in-out">
-              Welcome to my digital space! I'm Ibrahim Abdulrahman Maulid, 
+              Welcome to my digital space!, I'm Ibrahim Abdulrahman Maulid, 
               a dedicated IT student who discovered a 
               passion for programming and technology early in life. What started 
               as curiosity about how websites work has evolved into a deep appreciation
@@ -235,7 +237,7 @@
             <img src="Assets/images/Screenshot 2025-08-17 142507.png">
             <figure class="project-name">
               <i class="fas fa-code"></i> 
-              <h1>Construction Website</h1>
+              <h1>Laki Construction Website</h1>
             </figure>
             <p class="project-description">
               “A professional and responsive construction company website built 
@@ -266,12 +268,67 @@
             <p class="project-description">
               This was the very first website I built when I was starting my 
               journey in web development. It may look simple, but it was my foundation
-              in understanding web design and coding.
+              in understanding web design and coding. From here i learned alot of things
+              and advanced my portifolio to the one you scroll now.
             </p>
             <figure class="project-tech-used">
               <p>HTML</p>
               <p>Css</p>
               <p>Images & Text</p>
+            </figure>
+            <div class="project-button">
+              <a href="https://matembotech.github.io/" target="_blank">
+                View Live
+              </a>
+              <a href="https://github.com/Matembotech/Matembotech.github.io" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+           <div class="project-container-card">
+            <img src="Assets/images/portifolio 2.png">
+            <figure class="project-name">
+              <i class="fas fa-code"></i> 
+              <h1>My Second Portifolio</h1>
+            </figure>
+            <p class="project-description">
+              This was my second portifolio website. My progress from my first portifolio
+              built with HTML, CSS, and JavaScript. Features a clean design, PROJECTS showcase, 
+              contact form, and much much more responsive than the first across all devices.         
+            </p>
+            <figure class="project-tech-used">
+              <p>HTML</p>
+              <p>Css</p>
+              <p>Javascripts</p>
+              <p>SwipedJs</p>
+              <p>TypedJs</p>
+            </figure>
+            <div class="project-button">
+              <a href="https://matembotech.github.io/" target="_blank">
+                View Live
+              </a>
+              <a href="https://github.com/Matembotech/Matembotech.github.io" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+           <div class="project-container-card">
+            <img src="Assets/images/CALCULATOR.jpg">
+            <figure class="project-name">
+              <i class="fas fa-code"></i> 
+              <h1>Simple Calculator</h1>
+            </figure>
+            <p class="project-description">
+              Responsive Calculator, it serves basic mathematical calculation like Addition,
+               Substraction, Multiplication and Division.
+              built with HTML, CSS, and JavaScript.        
+            </p>
+            <figure class="project-tech-used">
+              <p>HTML</p>
+              <p>Css</p>
+              <p>Javascripts</p>
             </figure>
             <div class="project-button">
               <a href="https://matembotech.github.io/" target="_blank">
@@ -289,7 +346,7 @@
           <i class="fa-brands fa-github"></i> View All Projects on Github
         </a>
 
-        <a href="#" class="Github-button">
+        <a href="graphics.html" class="Github-button">
          View My Graphic Works
         </a>
         </div>
@@ -359,16 +416,16 @@
             <p class="form-description">Fill out the form below and I'll get back to you as soon as possible.</p>
 
             <label for="fullName">Full Name</label><br>
-            <input type="text" id="fullName" name="fullName" placeholder="Enter Full name" required><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter Full name" min="3" max="30" required><br>
 
             <label for="email">Email Address</label><br>
-            <input type="text" id="email" name="email" placeholder="matembo@example.com" required><br>
+            <input type="email" id="email" name="email" placeholder="matembo@example.com" required><br>
 
             <label for="phoneNumber">Phone Number</label><br>
-            <input type="text" id="phoneNumber" name="nmber" placeholder="+255" required><br>
+            <input type="Number" id="phoneNumber" name="nmber" placeholder="+255" required><br>
 
             <label for="message">Message</label><br>
-            <textarea id="nessage" name="message" placeholder="Tell me about your project or just say Hello.." required></textarea><br>
+            <textarea id="message" name="message" placeholder="Tell me about your project or just say Hello.." required></textarea><br>
 
             <button type="submit">Send Message  <i class="fa-regular fa-paper-plane"></i></button> 
           </form>
@@ -385,7 +442,7 @@
       </div>
 
       <div class="footer-content2">
-        <h1>Matembo Tech</h1>
+        <h1>Matembo dev.</h1>
         <p>IT Student & Aspiring Developer</p>
         <nav class="footer-navigation-bars">
           <a href="#home" class="active">Home</a>
@@ -400,7 +457,7 @@
       </div>
       </div>
       <hr class="footer-line">
-        <p class="copyright">&copy;MATEMBO TECH. All rights reserved.</p>
+        <p class="copyright">&copy;MATEMBO DEV. All rights reserved.</p>
     </footer>
     
 

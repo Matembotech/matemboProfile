@@ -1,0 +1,65 @@
+.graphics-section {
+    margin-top: 5rem;
+    padding: 25px;
+}
+
+.graphics-section span {
+    color: var(--text-color2);
+    font-size: 1.7rem;
+}
+
+.poster-images {
+    display: flex;
+    flex-direction: column;
+   
+    gap: 2rem;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+.poster-images img {
+    width: 100%;
+}
+
+/*Responsive Design*/
+@media (min-width: 480px) { 
+  
+}
+
+/* Large phones and small tablets */
+@media (min-width: 600px) { 
+ .poster-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+}
+
+/* Tablets portrait */
+@media (min-width: 768px) {
+ 
+ }
+
+/* Tablets landscape and small laptops */
+@media (min-width: 992px) {
+   
+ }
+
+/* Desktops */
+@media (min-width: 1200px) {
+    .poster-images img {
+        width: 90%;
+    }
+ }
+
+/* Large desktops */
+@media (min-width: 1440px) {
+  
+ }
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+   
+ }
+
+

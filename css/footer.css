@@ -8,24 +8,12 @@
   padding-bottom: 2rem;
   align-items: center;
   justify-content: center;
-
-}
-
-@keyframes footerImg {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
 }
 
 .footer-content1 img, .footer-content3 img{
   width: 100px;
   border-radius: 6rem;
   display: none;
-
-  animation-name: footerImg; 
-  animation-duration: 4s;
-  animation-delay: 4s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
 }
 
 .footer-content2 {

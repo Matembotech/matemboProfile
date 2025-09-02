@@ -103,6 +103,7 @@
     border-radius: 10px;
     border: 1px solid var(--nav-color);
     width: 85%;
+    color: var(--text-color2);
     background-color: transparent;
 }
 
@@ -123,6 +124,7 @@ textarea {
 
 textarea:focus {
     outline: none;
+    color: var(--text-color2);
 }
 
 .contact-form button {
@@ -173,13 +175,6 @@ textarea:focus {
 hr {
     width: 95%;
 }
-
-
-
-
-
-
-
 
 /*Responsive Design*/
 @media (min-width: 480px) { 
